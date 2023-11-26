@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/cadastro.css">
+    <link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/style/style.css">
+    <title>FoodDash | Cadastro</title>
+</head>
+
+<body class="">
+
+    <header class="header" id="header">
+        <!-- NAV -->
+        <nav class="nav bd-container">
+            <h1><a href="#" class="logo">FoodDash</a></h1>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="/home.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="/login.html" class="btn">Login</a></li>
+                </ul>
+            </div>
+
+            <!--MENU TOGGLE-->
+            <div class="nav__toggle">
+                <i class='bx bx-menu-alt-right' id="nav-toggle"></i>
+            </div>
+            <!-- END MENU TOGGLE -->
+        </nav>
+        <!-- END NAV -->
+    </header>
+    <!-- END HEADER -->
+
+    <div class="linha-cima"></div>
+    <div class="main-register">
+        <div class="left-register">
+            <h1>Faça o seu cadastro<br>E encontre o melhor para o seu paladar</h1>
+            <img class="imagem" src="/svg/deconstructed-food-animate (1).svg" alt="">
+        </div>
+
+        <div class="right-register">
+            <div class="card-register">
+                <h1>REGISTRAR</h1>
+
+                <div class="textfield">
+                    <label id="labelNome" for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome" placeholder="Nome" required>
+                </div>
+
+                <div class="textfield">
+                    <label id="labelEmail" for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Email" required>
+                </div>
+
+                <div class="textfield">
+                    <label id="labelUsuario" for="usuario">Usuario</label>
+                    <input type="text" id="usuario" name="usuario" placeholder="Usuario" required>
+                </div>
+
+                <div class="textfield">
+                    <label id="labelSenha" for="senha">Senha</label>
+                    <input type="password" id="senha" name="senha" placeholder="Senha" required>
+                </div>
+
+                <div class="textfield">
+                    <label id="labelConfirmSenha" for="confirmSenha">Confirme a senha</label>
+                    <input type="password" id="confirmSenha" name="confirmSenha" placeholder="Confirme a senha"
+                        required>
+                </div>
+                <button onclick="cadastrar()" class="btn-register">Registrar</button>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    </div>
+
+    <footer class="footer section bg-container">
+        <div class="footer__container bd-container">
+            <div class="company">
+                <h3 class="logo">FoodDash</h3>
+                <small>Redes sociais</small>
+                <div class="social__media">
+                    <a href=""><i class='bx bxl-instagram'></i></a>
+                    <a href=""><i class='bx bxl-facebook'></i></a>
+                    <a href=""><i class='bx bxl-twitter'></i></a>
+                </div>
+            </div>
+            <div class="services">
+                <h3 class="footer__title">Serviços</h3>
+                <a href="" class="footer__subtittle">Cardapio</a>
+            </div>
+            <div class="info">
+                <h3 class="footer__title">Informações</h3>
+                <a href="" class="footer__subtittle">Política de privacidade</a>
+                <a href="" class="footer__subtittle">Termos de uso</a>
+            </div>
+            <div class="addres">
+                <h3 class="footer__title">Endereço</h3>
+                <small class="footer__subtittle">Minas Gerais - Brasil</small>
+                <small class="footer__subtittle">Santa Rita do Sapucai</small>
+                <small class="footer__subtittle">(11) 9999-8888</small>
+                <small class="footer__subtittle">fooddash@email.com</small>
+            </div>
+        </div>
+        <p>@2023 FoodDash</p>
+    </footer>
+
+    <script src="js/cadastro.js" defer></script>
+
+</body>
+
+</html>
